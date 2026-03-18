@@ -10,7 +10,7 @@ const navItems = [
   { name: 'About', path: '/about' },
   { name: 'Platform Vision', path: '/platform-vision' },
   { name: 'Property System', path: '/property-system' },
-  { name: 'Reach Us', path: '/reach-us' },
+  // { name: '', path: '/reach-us' },
 ];
 
 const Header = () => {
@@ -112,7 +112,7 @@ const Header = () => {
                 whileTap={{ scale: 0.95 }}
                 className="hidden md:flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-semibold rounded-full shadow-md hover:from-blue-700 hover:to-indigo-700 transition-all"
               >
-                Get A Quote
+                Reach Us
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
@@ -162,7 +162,7 @@ const Header = () => {
                   transition={{ delay: 0.4 }}
                   className="mt-4 w-full flex justify-center items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-md"
                 >
-                  Get A Quote
+                  Reach Us
                 </Link>
               </div>
             </motion.div>
